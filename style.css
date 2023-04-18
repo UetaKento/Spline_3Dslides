@@ -31,3 +31,24 @@ h1{
     top: 20px;
     right: 20%;
 }
+@media screen and (min-width:480px) and ( max-width:600px){
+    /*　画面サイズが480pxから600pxまではここを読み込む　*/
+    #arrowR{
+        width: 20%;
+        height: 20%;
+        top: 80px;
+        left: 80px;
+    }
+    #arrowL{
+        width: 20%;
+        height: 20%;
+        top: 80px;
+        left: 80px;
+    }
+}
+@media screen and (min-width:600px) and ( max-width:1050px) {
+   /*　画面サイズが600pxから1050pxまではここを読み込む　*/
+}
+@media screen and (min-width:1050px) {
+   /*　画面サイズが1050pxからはここを読み込む　*/
+}
