@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+body {
+    height: 100%;
+    font-family: serif;
+    background-color: white;
+}
+.main_slide{
+    height: 100%;
+}
+.Cover_Right{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width        : 10%;
+    height       : 100%;
+    background   : linear-gradient(to right, rgba(255, 255, 255, 0.10), #999999);
+}
+.Arrow_Right {
+    position: absolute;
+    top: 45%;
+    right: 3%;
+    border-top: solid 12px #ffffff;
+    border-right: solid 12px #ffffff;
+    width: 72px;
+    height: 72px;
+    transform: rotate(45deg);
+}
+/* .main_slide iframe{
+    border-radius: 20px;
+} */
