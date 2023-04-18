@@ -17,38 +17,38 @@ h1{
 .main_slide iframe{
     border-radius: 20px;
 }
-#arrowR{
-    position: relative;
-    width: 10%;
-    height: 10%;
-    top: 20px;
-    left: 20%;
-}
-#arrowL{
-    position: relative;
-    width: 10%;
-    height: 10%;
-    top: 20px;
-    right: 20%;
-}
-@media screen and (min-width:480px) and ( max-width:600px){
-    /*　画面サイズが480pxから600pxまではここを読み込む　*/
+@media screen and (min-width:1050px) {
+    /*　画面サイズが1050pxからはここを読み込む　*/
     #arrowR{
-        width: 20%;
-        height: 20%;
-        top: 80px;
-        left: 80px;
+        position: relative;
+        width: 10%;
+        height: 10%;
+        top: 20px;
+        left: 20%;
     }
     #arrowL{
-        width: 20%;
-        height: 20%;
-        top: 80px;
-        left: 80px;
+        position: relative;
+        width: 10%;
+        height: 10%;
+        top: 20px;
+        right: 20%;
     }
 }
 @media screen and (min-width:600px) and ( max-width:1050px) {
    /*　画面サイズが600pxから1050pxまではここを読み込む　*/
 }
-@media screen and (min-width:1050px) {
-   /*　画面サイズが1050pxからはここを読み込む　*/
+@media screen and (min-width:480px) and ( max-width:600px){
+    /*　画面サイズが480pxから600pxまではここを読み込む　*/
+    #arrowR{
+        width: 10%;
+        height: 10%;
+        top: 80px;
+        left: 20%;
+    }
+    #arrowL{
+        width: 10%;
+        height: 10%;
+        top: 80px;
+        right: 20%;
+    }
 }
