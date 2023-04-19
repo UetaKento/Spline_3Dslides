@@ -31,3 +31,20 @@ body {
 /* .main_slide iframe{
     border-radius: 20px;
 } */
+/* @media screen and (min-width:480px) and ( max-width:600px){
+    .main_slide{
+        height: 50%;
+    }
+}
+
+@media screen and (min-width:600px) and ( max-width:1050px) {
+    .main_slide{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:1050px) {
+    .main_slide{
+        height: 100%;
+    }
+} */
