@@ -16,7 +16,15 @@ body {
     right: 0%;
     width        : 10%;
     height       : 100%;
-    background   : linear-gradient(to right, rgba(255, 255, 255, 0.10), #999999);
+    background   : linear-gradient(to right, rgba(255, 255, 255, 0.10), #cbcaca);
+}
+.Cover_Left{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width        : 10%;
+    height       : 100%;
+    background   : linear-gradient(to left, rgba(255, 255, 255, 0.10), #cbcaca);
 }
 .Arrow_Right {
     position: absolute;
@@ -24,6 +32,16 @@ body {
     right: 3%;
     border-top: solid 12px #ffffff;
     border-right: solid 12px #ffffff;
+    width: 72px;
+    height: 72px;
+    transform: rotate(45deg);
+}
+.Arrow_Left {
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    border-bottom: solid 12px #ffffff;
+    border-left: solid 12px #ffffff;
     width: 72px;
     height: 72px;
     transform: rotate(45deg);

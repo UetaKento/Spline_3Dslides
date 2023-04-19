@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+body {
+    height: 100%;
+    font-family: serif;
+    background-color: white;
+}
+h1{
+    margin: 1%;
+    font-size: 5rem;
+}
+.main_slide{
+    height: 100%;
+}
+.main_slide iframe{
+    border-radius: 20px;
+}
+
+#arrowR{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    top: 10rem;
+    left: 20%;
+}
+#arrowL{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    top: 10rem;
+    right: 20%;
+}
+
+/*
+@media screen and (min-width:480px) and ( max-width:600px){
+    画面サイズが480pxから600pxまではここを読み込む
+    #arrowR{
+        position: relative;
+        width: 10px;
+        height: 10%;
+        top: 80px;
+        left: 20%;
+    }
+    #arrowL{
+        position: relative;
+        width: 10%;
+        height: 10%;
+        top: 80px;
+        right: 20%;
+    }
+}
+
+@media screen and (min-width:600px) and ( max-width:1050px) {
+    画面サイズが600pxから1050pxまではここを読み込む
+}
+
+@media screen and (min-width:1050px) {
+    画面サイズが1050pxからはここを読み込む
+    #arrowR{
+        position: relative;
+        width: 10%;
+        height: 10%;
+        top: 20px;
+        left: 20%;
+    }
+    #arrowL{
+        position: relative;
+        width: 10%;
+        height: 10%;
+        top: 20px;
+        right: 20%;
+    }
+}
+*/
