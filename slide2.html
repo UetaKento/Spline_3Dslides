@@ -20,5 +20,14 @@
                 <div class="Arrow_Left"></div>
             </a>
         </div>
+        <script>
+            addEventListener( "keydown", keydownfunc );
+            function keydownfunc( event ) {
+                var key_code = event.keyCode;
+    
+                if( key_code === 37 ) location.href='slide1.html';		//「左ボタン」が押されたときの挙動。
+                if( key_code === 39 ) location.href='slide2.html';		//「右ボタン」が押されたときの挙動。
+            }
+        </script>
     </body>
 </html>
