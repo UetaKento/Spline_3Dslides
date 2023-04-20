@@ -28,3 +28,11 @@ body {
     height: 72px;
     transform: rotate(45deg);
 }
+@media screen and (min-width:400px) and ( max-width:600px){
+    .Arrow_Right {
+        border-top: solid 6px #ffffff;
+        border-right: solid 6px #ffffff;
+        width: 36px;
+        height: 36px;
+    }
+}

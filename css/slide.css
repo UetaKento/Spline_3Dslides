@@ -46,15 +46,22 @@ body {
     height: 72px;
     transform: rotate(45deg);
 }
-/* .main_slide iframe{
-    border-radius: 20px;
-} */
-/* @media screen and (min-width:480px) and ( max-width:600px){
-    .main_slide{
-        height: 50%;
+
+@media screen and (min-width:400px) and ( max-width:600px){
+    .Arrow_Right {
+        border-top: solid 6px #ffffff;
+        border-right: solid 6px #ffffff;
+        width: 36px;
+        height: 36px;
+    }
+    .Arrow_Left {
+        border-bottom: solid 6px #ffffff;
+        border-left: solid 6px #ffffff;
+        width: 36px;
+        height: 36px;
     }
 }
-
+/*
 @media screen and (min-width:600px) and ( max-width:1050px) {
     .main_slide{
         height: 100%;
